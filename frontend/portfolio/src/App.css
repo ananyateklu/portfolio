@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -27,6 +28,24 @@
 .App-link {
   color: #61dafb;
 }
+
+
+.flex-container {
+  display: flex;
+}
+
+
+
+.flex-child:first-child {
+  background-color: #6ec259;
+  width: 370px;
+  
+  
+} 
+.flex-child.magenta {
+  width: 100%;
+}
+
 
 @keyframes App-logo-spin {
   from {
