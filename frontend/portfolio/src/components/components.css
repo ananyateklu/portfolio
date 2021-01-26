@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@506&family=Roboto:wght@500;700&display=swap');
+
+
+.About {
+    height: 400px;
+    position: absolute;
+    left: 350px;
+    top: 200px;
+}
+.Education {
+    position: absolute;
+    left: 350px;
+    top: 1000px
+}
+.Experience {
+    position: absolute;
+    left: 350px;
+    top: 1400px
+}
+.Skills {
+    position: absolute;
+    left: 350px;
+    top: 1800px
+}
+.About h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    display: inline;
+    padding: 0;
+}
+.About h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #747a70;
+    display: block;
+}
+.last {
+    color: #6ec259;
+
+}
