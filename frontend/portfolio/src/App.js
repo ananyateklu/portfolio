@@ -2,7 +2,7 @@ import react from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import About from "./components/about.component";
-import "bootstrap"
+import "bootstrap/dist/css/bootstrap.min.css"
 import Education from "./components/education.component";
 import Projects from "./components/projects.component";
 import Skills from "./components/skills.component";
