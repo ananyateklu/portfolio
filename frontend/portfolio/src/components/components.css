@@ -9,15 +9,61 @@
     top: 200px;
     text-align: left;
 }
+.name {
+    color: #41443f;
+}
+
 .Education {
     position: absolute;
     left: 350px;
-    top: 1000px
+    top: 1000px;
+    width: 75%;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    
+}
+.Education h1 {
+    font-size: 50px;
+    color: #41443f;
+  
+
+}
+.Education h5 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    margin-top: 5px;
+    color: #747a70;
+    font-size: medium;
+}
+.work h3{
+    display: inline;
+    margin-right: 40%;
+    font-size: 25px;
+    color: #41443f;
+
+    
+    
+}
+.bach {
+    padding: 0;
+    margin: 0;
+    color: #747a70;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+.work h4{
+    display: inline;
+    color: #5a994a;
+    font-family: 'Raleway', sans-serif;
+   
+
+    
 }
 .Experience {
     position: absolute;
     left: 350px;
-    top: 1400px
+    top: 1700px
 }
 .Skills {
     position: absolute;
@@ -26,7 +72,7 @@
 }
 .About h1 {
     font-family: 'Oswald', sans-serif;
-    font-size: 70px;
+    font-size: 75px;
     display: inline;
     padding: 0;
     
@@ -61,6 +107,7 @@
     width: 900px;
     margin-top: 40px;
     text-align: left;
+    margin-bottom: 60px;
 
 }
 .last {
@@ -68,3 +115,15 @@
   
 
 }
+ .Icondiv {
+    display: inline;
+    background-color: #4c5049;
+    color: white;
+    padding-top: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
