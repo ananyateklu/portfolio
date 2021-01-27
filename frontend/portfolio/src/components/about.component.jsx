@@ -1,12 +1,16 @@
-import react, { Component } from "react";
-import "./components.css";
+import react, { Component } from "react"
+import "./components.css"
+import GitHubIcon from '@material-ui/icons/GitHub'
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
+
 
 
 export default class About extends Component {
   render() {
     return (
       <div className="About">
-        <h1>ANANYA </h1>
+        <h1 className="name"> ANANYA </h1>
         <h1 className="last">TEKLU</h1>
         <div>
           <h3>2735 RICE STREET, ROSEVILLE, MN 55113 · (517) 505-1226 · </h3>
@@ -17,8 +21,11 @@ export default class About extends Component {
             strategy foster collaborative thinking to further the overall value
             proposition.
           </h5>
-          
+          <div className="Icondiv"><GitHubIcon/></div>
+          <div className="Icondiv"><LinkedInIcon/></div>
+          <div className="Icondiv"><InstagramIcon/></div>
         </div>
+       
       </div>
     );
   }
