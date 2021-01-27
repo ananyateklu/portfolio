@@ -1,4 +1,4 @@
-import react, { Component } from "react"
+import React, { Component } from "react"
 import "./components.css"
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -9,7 +9,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 export default class About extends Component {
   render() {
     return (
-      <div className="About">
+      <div id="about"  className="About">
         <h1 className="name"> ANANYA </h1>
         <h1 className="last">TEKLU</h1>
         <div>
