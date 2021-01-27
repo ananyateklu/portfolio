@@ -63,12 +63,27 @@
 .Experience {
     position: absolute;
     left: 350px;
-    top: 1700px
+    top: 1800px;
 }
+.Experience h1 {
+    font-size: 50px;
+    color: #41443f;
+    font-family: 'Oswald', sans-serif;
+  
+
+}
+.Skills h1 {
+    font-size: 50px;
+    color: #41443f;
+    font-family: 'Oswald', sans-serif;
+  
+
+}
+
 .Skills {
     position: absolute;
     left: 350px;
-    top: 1800px
+    top: 2600px
 }
 .About h1 {
     font-family: 'Oswald', sans-serif;
@@ -92,7 +107,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     font-weight: 100;
-    color: #6ec259;
+    color: #469931;
     display: inline;
     padding: 0;
     margin: 0;
@@ -111,7 +126,7 @@
 
 }
 .last {
-    color: #6ec259;
+    color:#469931;
   
 
 }
