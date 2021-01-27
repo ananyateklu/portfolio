@@ -37,8 +37,11 @@ function App() {
 
         <div className="flex-child magenta">
           <About />
+          <hr/>
           <Education />
+          <hr/>
           <Experience />
+          <hr/>
           <Skills />
         </div>
       </div>
