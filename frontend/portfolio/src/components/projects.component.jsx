@@ -1,10 +1,12 @@
-import react, { Component } from "react";
+import React, { Component } from "react";
 import "./components.css";
+
 
 export default class Experience extends Component {
   render() {
     return (
-      <div className="Experience">
+      <div id="projects" className="Projects">
+        
         <h1>PROJECTS</h1>
         <div>
           <div><p>a</p></div>

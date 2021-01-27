@@ -1,8 +1,7 @@
-import react from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router} from "react-router-dom";
+import { Link } from "react-scroll";
 import About from "./components/about.component";
-import "bootstrap/dist/css/bootstrap.min.css"
 import Education from "./components/education.component";
 import Projects from "./components/projects.component";
 import Skills from "./components/skills.component";
@@ -18,16 +17,16 @@ function App() {
           <img src={Photo} alt="myphoto" />
           <div className="linkdiv">
           <Router>
-            <Link className="links" to="/">
+            <Link activeClass="active" className="links" to="about" spy={true} smooth={true}>
               ABOUT
             </Link>
-            <Link className="links" to="/education">
+            <Link className="links" to="education" spy={true} smooth={true}>
               EDUCATION
             </Link>
-            <Link className="links" to="/projects">
+            <Link className="links" to="projects" spy={true} smooth={true}>
               PROJECTS
             </Link>
-            <Link className="links" to="/Skills">
+            <Link className="links" to="skills" spy={true} smooth={true}>
               SKILLS
             </Link>
           </Router>

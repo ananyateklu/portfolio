@@ -60,12 +60,13 @@
 
     
 }
-.Experience {
+.Projects {
     position: absolute;
     left: 350px;
     top: 1800px;
+   
 }
-.Experience h1 {
+.Projects h1 {
     font-size: 50px;
     color: #41443f;
     font-family: 'Oswald', sans-serif;

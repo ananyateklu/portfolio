@@ -1,11 +1,11 @@
-import react , { Component } from 'react'
+import React , { Component } from 'react'
 import "./components.css"
 
 
 export default class Education extends Component {
     render() {
         return (
-            <div className="Education">
+            <div id="education" className="Education">
             <h1>EDUCATION</h1>
             <div className="work">
             <h3 >UNIVERSITY OF MINNESOTA MORRIS</h3>
