@@ -5,7 +5,7 @@ export default class Skills extends Component {
   render() {
     return (
       <div className="Skills">
-        <h1>This is skills page</h1>
+        <h1>SKILLS</h1>
       </div>
     );
   }
