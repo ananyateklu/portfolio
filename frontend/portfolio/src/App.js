@@ -2,8 +2,9 @@ import react from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import About from "./components/about.component";
+import "bootstrap"
 import Education from "./components/education.component";
-import Experience from "./components/experience.component";
+import Projects from "./components/projects.component";
 import Skills from "./components/skills.component";
 import Photo from "./photo.jpg";
 import "./App.css";
@@ -23,8 +24,8 @@ function App() {
             <Link className="links" to="/education">
               EDUCATION
             </Link>
-            <Link className="links" to="/experience">
-              EXPERIENCE
+            <Link className="links" to="/projects">
+              PROJECTS
             </Link>
             <Link className="links" to="/Skills">
               SKILLS
@@ -40,7 +41,7 @@ function App() {
           <hr/>
           <Education />
           <hr/>
-          <Experience />
+          <Projects />
           <hr/>
           <Skills />
         </div>
