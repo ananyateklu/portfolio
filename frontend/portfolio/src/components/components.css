@@ -4,9 +4,10 @@
 
 .About {
     height: 400px;
+    padding-top: 200px;
     position: absolute;
     left: 350px;
-    top: 200px;
+    top: px;
     text-align: left;
 }
 .name {
@@ -15,8 +16,9 @@
 
 .Education {
     position: absolute;
+    padding-top: 200px;
     left: 350px;
-    top: 1000px;
+    top: 800px;
     width: 75%;
     text-align: left;
     font-family: 'Oswald', sans-serif;
@@ -63,7 +65,8 @@
 .Projects {
     position: absolute;
     left: 350px;
-    top: 1800px;
+    padding-top: 200px;
+    top: 1600px;
    
 }
 .Projects h1 {
@@ -84,7 +87,8 @@
 .Skills {
     position: absolute;
     left: 350px;
-    top: 2600px
+    padding-top: 200px;
+    top: 2400px
 }
 .About h1 {
     font-family: 'Oswald', sans-serif;
