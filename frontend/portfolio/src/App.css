@@ -67,18 +67,19 @@
 .linkdiv {
   position: fixed;
   bottom: 210px;
+  align-items: center;
 }
 
 .links {
   width: 100%;
   position: relative;
   float: left;
-  font-size: large;
-  margin-top: 20px;
+  font-size: larger;
+  margin-top: 15px;
   color: #7bc569;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  right: 13px;
+  right: 15px;
   
   
 
