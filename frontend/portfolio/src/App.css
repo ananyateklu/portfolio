@@ -70,7 +70,7 @@
 .linkdiv {
   position: fixed;
   bottom: 210px;
-  align-items: center;
+  display: block;
 }
 
 .links {
