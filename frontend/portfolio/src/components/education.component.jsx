@@ -7,7 +7,7 @@ export default class Education extends Component {
         return (
             <div id="education" className="Education">
             <h1>EDUCATION</h1>
-            <div className="work">
+            <div className="school">
             <h3 >UNIVERSITY OF MINNESOTA MORRIS</h3>
             <h4> August 2017  -  December 2020</h4>
             </div>
