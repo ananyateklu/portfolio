@@ -25,28 +25,24 @@ export default class App extends Component {
 
     expandNav() {
       this.setState({white: !this.state.white})
-      console.log(this.state.white)
 
     }
 
   render() {
-    const tab_class = this.state.white ? "block" : "none";
-    console.log(tab_class)
-    console.log(this.state.white ,"a")
+    const tab_class = this.state.white ? "none" : "block";
+  
     return (
       <div className="App">
         <div className="flex-container">
           <div  className="flex-child green">
             <img src={Photo} alt="myphoto"  />
-            <div className="Burger" onClick={() => this.expandNav()} ><GiHamburgerMenu size="40px"/></div>
+            <div className="Burger" ><GiHamburgerMenu onClick={() => this.expandNav()} size="40px"/></div>
             <div className="linkdiv" style={{display : tab_class}} >
               <Router>
                 <Link
-                  activeClass="active"
                   to="about"
                   spy={true}
                   smooth={true}
-                  onClick={() => this.expandNav()}
                   className= "links"
 
                 >
