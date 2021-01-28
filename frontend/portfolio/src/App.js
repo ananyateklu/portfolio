@@ -18,18 +18,18 @@ export default class App extends Component {
       super()
 
       this.state = {
-        white: false
+        mobile: false,
       }
 
     }
 
     expandNav() {
-      this.setState({white: !this.state.white})
+      this.setState({mobile: !this.state.mobile})
 
     }
 
   render() {
-    const tab_class = this.state.white ? "none" : "block";
+    const tab_class = this.state.desktop ? "none" : "block";
   
     return (
       <div className="App">
