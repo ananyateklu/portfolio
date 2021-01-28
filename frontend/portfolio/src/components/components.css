@@ -198,6 +198,9 @@
     width: 350px;
     z-index: -1;
   }
+  .school h4 {
+      display: block;
+  }
   .Projects {
     position: absolute;
     padding-top: 200px;
