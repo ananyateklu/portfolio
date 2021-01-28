@@ -22,8 +22,8 @@ export default class About extends Component {
             proposition.
           </h5>
           <a href="https://github.com/ananyateklu"><div className="Icondiv"><GitHubIcon/></div></a>
-          <div className="Icondiv"><LinkedInIcon/></div>
-          <div className="Icondiv"><InstagramIcon/></div>
+          <a href="https://www.linkedin.com/in/ananya-teklu-37b5b2154/"><div className="Icondiv"><LinkedInIcon/></div></a>
+          <a href="https://www.instagram.com/ananya_teklu/"><div className="Icondiv"><InstagramIcon/></div></a>
         </div>
        
       </div>
