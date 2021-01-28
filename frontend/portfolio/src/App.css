@@ -53,6 +53,9 @@
   height: 2000px;
 
 }
+.Burger {
+  display: none;
+}
 .flex-child.green img {
   width: 150px;
   border-radius: 60%;
@@ -138,11 +141,17 @@ hr {
 
   .flex-child.magenta {
     height: 2000px;
-    width: 0px;
-  
-   
+    width: 0px; 
   
   }
+
+  .Burger {
+    display: block;
+    float: right;
+    padding: 10px;
+    color: rgb(159, 218, 114);
+  }
+
   hr {
     margin-top: 800px;
     height: 0.1px;
@@ -156,7 +165,8 @@ hr {
 
   }
   .links {
-    width: 120%;
+    width: 100%;
+    margin-left: 20px;
     position: relative;
     float: left;
     font-size: larger;
