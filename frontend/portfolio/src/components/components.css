@@ -47,7 +47,7 @@
   font-weight: 100;
   margin-bottom: 40px;
 }
-.work h4 {
+.school h4 {
   display: inline;
   color: #5a994a;
   font-family: "Raleway", sans-serif;
@@ -184,7 +184,7 @@
     left: 20px;
     top: px;
     text-align: left;
-    width: 450px;
+    width: 350px;
     z-index: -1;
   }
   .Education {
@@ -195,14 +195,14 @@
     text-align: left;
     font-family: "Oswald", sans-serif;
     display: inline;
-    width: 450px;
+    width: 350px;
     z-index: -1;
   }
   .Projects {
     position: absolute;
     padding-top: 200px;
     left: 20px;
-    width: 450px;
+    width: 350px;
     top: 1600px;
     z-index: -1;
   }
@@ -213,7 +213,7 @@
     top: 2400px;
     text-align: left;
     height: 600px;
-    width: 429px;
+    width: 355px;
     z-index: -1;
   }
   .About h5 {
@@ -221,7 +221,7 @@
     font-size: 16px;
     color: #747a70;
     display: block;
-    width: 430px;
+    width: 350px;
     margin-top: 40px;
     text-align: left;
     margin-bottom: 60px;
@@ -240,7 +240,8 @@
     text-align: left;
   }
   .grid-item img {
-    width: 200px;
+    width: 140px;
+    margin-right: 20px;
     border-radius: 18px;
   }
   .work h3 {
