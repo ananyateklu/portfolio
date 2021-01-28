@@ -73,6 +73,7 @@
     font-size: 50px;
     color: #41443f;
     font-family: 'Oswald', sans-serif;
+    position: absolute;
   
 
 }
@@ -83,12 +84,20 @@
   
 
 }
+.Skills h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    color: #737a6f;
+}
 
 .Skills {
     position: absolute;
     left: 350px;
     padding-top: 200px;
-    top: 2400px
+    top: 2400px;
+    text-align: left;
+    height: 600px;
+    
 }
 .About h1 {
     font-family: 'Oswald', sans-serif;
@@ -147,3 +156,39 @@
     border-radius: 50%;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 3px;
+    align-items: center;
+    width: 100%;
+    padding-top: 200px;
+   
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+   
+    
+  }
+  .grid-item img {
+    width: 200px;
+    
+   
+  }
+
+  .skillz {
+      display: inline;
+      padding-left: 10px;
+      width: 20px;
+      color:  #747a70;
+  }
+  
+
+  .mainSkill {
+
+      padding-top: 20px;
+
+
+  }
