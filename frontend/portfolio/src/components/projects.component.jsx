@@ -8,9 +8,9 @@ export default class Experience extends Component {
     return (
       <div id="projects" className="Projects">
         <h1>PROJECTS</h1>
-        <div class="grid-container">
-          <div class="grid-item"><img src={Project1} alt="p1" /></div>
-          <div class="grid-item"><img src={Project2} alt="p2" /></div>
+        <div className="grid-container">
+          <div className="grid-item"><img src={Project1} alt="p1" /></div>
+          <div className="grid-item"><img src={Project2} alt="p2" /></div>
          
         </div>
       </div>
