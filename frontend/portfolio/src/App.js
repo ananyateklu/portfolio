@@ -18,7 +18,7 @@ export default class App extends Component {
       super()
 
       this.state = {
-        mobile: false,
+        mobile: true
       }
 
     }
@@ -29,7 +29,7 @@ export default class App extends Component {
     }
 
   render() {
-    const tab_class = this.state.desktop ? "none" : "block";
+    const tab_class = this.state.mobile ? "block" : "none";
   
     return (
       <div className="App">
