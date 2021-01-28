@@ -134,6 +134,12 @@
   margin-right: 40px;
   border-radius: 50%;
 }
+.Icondiv a {
+    color: white;
+}
+.Icondiv a:visited {
+    color: white;
+}
 
 .grid-container {
   display: grid;

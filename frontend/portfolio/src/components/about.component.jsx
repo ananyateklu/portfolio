@@ -21,9 +21,9 @@ export default class About extends Component {
             strategy foster collaborative thinking to further the overall value
             proposition.
           </h5>
-          <a href="https://github.com/ananyateklu"><div className="Icondiv"><GitHubIcon/></div></a>
-          <a href="https://www.linkedin.com/in/ananya-teklu-37b5b2154/"><div className="Icondiv"><LinkedInIcon/></div></a>
-          <a href="https://www.instagram.com/ananya_teklu/"><div className="Icondiv"><InstagramIcon/></div></a>
+          <div className="Icondiv"><a href="https://github.com/ananyateklu"><GitHubIcon/></a></div>
+          <div className="Icondiv"><a href="https://www.linkedin.com/in/ananya-teklu-37b5b2154/"><LinkedInIcon/></a></div>
+          <div className="Icondiv"><a href="https://www.instagram.com/ananya_teklu/"><InstagramIcon/></a></div>
         </div>
        
       </div>
