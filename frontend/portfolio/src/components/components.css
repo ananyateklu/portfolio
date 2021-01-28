@@ -150,7 +150,7 @@
 }
 .grid-item img {
   width: 200px;
-  border-radius: 18px;
+  border-radius: 7px;
 }
 
 .skillz {
@@ -184,7 +184,7 @@
     left: 20px;
     top: px;
     text-align: left;
-    width: 350px;
+    width: 290px;
     z-index: -1;
   }
   .Education {
@@ -221,10 +221,10 @@
   }
   .About h5 {
     font-family: "Raleway", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #747a70;
     display: block;
-    width: 350px;
+    width: 335px;
     margin-top: 40px;
     text-align: left;
     margin-bottom: 60px;
@@ -245,7 +245,7 @@
   .grid-item img {
     width: 140px;
     margin-right: 20px;
-    border-radius: 18px;
+    border-radius: 6px;
   }
   .work h3 {
     display: inline;
@@ -257,8 +257,43 @@
       width: 0px;
       margin: 0px;
   }
-
-
-
+  .About h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    display: inline;
+    padding: 0;
+  }
+  .About h3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: #747a70;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: inline;
+  }
+  .Education h1 {
+    font-size: 40px;
+    color: #41443f;
+  }
+  .Education h5 {
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    margin-top: 5px;
+    color: #747a70;
+    font-size: medium;
+    font-size: 16px;
+  }
+  .school h4 {
+    display: block;
+    color: #5a994a;
+    font-family: "Raleway", sans-serif;
+  }
+  .school h3 {
+    display: inline;
+    font-size: 20px;
+    color: #41443f;
+  }
 
 }
