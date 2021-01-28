@@ -13,8 +13,7 @@ export default class Skills extends Component {
       <div id="skills" className="Skills">
         <h1>SKILLS</h1>
         <h3>PROGRAMMING LANGUAGES AND TOOLS</h3>
-        <div>
-          <div className="mainSkill"> 
+        <div className="mainSkill"> 
             <div className="skillz">< FaAngular size="50px"/></div>
             <div className="skillz"><FaJava size="50px"/></div>
             <div className="skillz"><SiIntellijidea size="50px"/></div>
@@ -29,11 +28,18 @@ export default class Skills extends Component {
             <div className="skillz"> <SiHtml5 size="50px"/></div>
             <div className="skillz"> <FaCss3Alt size="50px"/></div>
             <div className="skillz"> <DiSpark size="50px"/></div>
+            <div className="skillz"> <IoLogoJavascript size="50px"/></div>
             <div className="skillz"> <DiNpm size="50px"/></div>
            
         </div>
+        <h3> WORKFLOW </h3>
+        <ul>
+          <li><h5>Agile Development</h5></li>
+          <li><h5>Unit Testing</h5></li>
+          <li><h5>Responsive Design</h5></li>
+        </ul>
           
-        </div>
+        
       </div>
     );
   }
