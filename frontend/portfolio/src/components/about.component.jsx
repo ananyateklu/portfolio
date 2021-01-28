@@ -21,7 +21,7 @@ export default class About extends Component {
             strategy foster collaborative thinking to further the overall value
             proposition.
           </h5>
-          <div className="Icondiv"><GitHubIcon/></div>
+          <a href="https://github.com/ananyateklu"><div className="Icondiv"><GitHubIcon/></div></a>
           <div className="Icondiv"><LinkedInIcon/></div>
           <div className="Icondiv"><InstagramIcon/></div>
         </div>
