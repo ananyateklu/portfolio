@@ -130,7 +130,10 @@ hr {
     position: fixed;
     top: 60px;
     right: 0px;
-    width: 180px;
+    width: 130px;
+    background-color:  #469931;
+    height: 175px;
+    display: none;
   }
 
   .flex-child.magenta {
@@ -151,6 +154,20 @@ hr {
     display: grid;
    
 
+  }
+  .links {
+    width: 120%;
+    position: relative;
+    float: left;
+    font-size: larger;
+    margin-top: 15px;
+    color: #7bc569;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    right: 15px;
+    
+    
+  
   }
 
 
