@@ -4,9 +4,10 @@
 
 .About {
     height: 400px;
+    padding-top: 200px;
     position: absolute;
     left: 350px;
-    top: 200px;
+    top: px;
     text-align: left;
 }
 .name {
@@ -15,8 +16,9 @@
 
 .Education {
     position: absolute;
+    padding-top: 200px;
     left: 350px;
-    top: 1000px;
+    top: 800px;
     width: 75%;
     text-align: left;
     font-family: 'Oswald', sans-serif;
@@ -63,13 +65,15 @@
 .Projects {
     position: absolute;
     left: 350px;
-    top: 1800px;
+    padding-top: 200px;
+    top: 1600px;
    
 }
 .Projects h1 {
     font-size: 50px;
     color: #41443f;
     font-family: 'Oswald', sans-serif;
+    position: absolute;
   
 
 }
@@ -80,11 +84,21 @@
   
 
 }
+.Skills h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: larger;
+    color: #737a6f;
+}
 
 .Skills {
     position: absolute;
     left: 350px;
-    top: 2600px
+    padding-top: 200px;
+    top: 2400px;
+    text-align: left;
+    height: 600px;
+    
 }
 .About h1 {
     font-family: 'Oswald', sans-serif;
@@ -143,3 +157,52 @@
     border-radius: 50%;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 3px;
+    align-items: center;
+    width: 100%;
+    padding-top: 200px;
+   
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+   
+    
+  }
+  .grid-item img {
+    width: 200px;
+    
+   
+  }
+
+  .skillz {
+      display: inline;
+      padding-left: 10px;
+      width: 20px;
+      color:  #747a70;
+  }
+  
+
+  .mainSkill {
+      padding-top: 20px;
+      padding-bottom: 20PX;
+
+
+  }
+
+.Skills ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #747a70;
+
+}
+
+.Skills ul li h5 {
+   margin: 0;
+   padding: 0;
+
+}
