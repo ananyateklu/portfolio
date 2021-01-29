@@ -29,7 +29,7 @@ export default class App extends Component {
     }
 
   render() {
-    const tab_class = this.state.mobile ? "block" : "none";
+    const tab_class = this.state.mobile ? "none" : "block";
   
     return (
       <div className="App">
