@@ -16,10 +16,7 @@ export default class About extends Component {
           <h3>2735 RICE STREET, ROSEVILLE, MN 55113 · (517) 505-1226 · </h3>
           <h4 className="Email">ANANYA.TEKLU@GMAIL.COM</h4>
           <h5>
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+          Software Developer skilled at technical leadership, communication and presentations. Experienced in full project life cycle from design to implementation to integration.
           </h5>
           <div className="Icondiv"><a href="https://github.com/ananyateklu"><GitHubIcon/></a></div>
           <div className="Icondiv"><a href="https://www.linkedin.com/in/ananya-teklu-37b5b2154/"><LinkedInIcon/></a></div>
