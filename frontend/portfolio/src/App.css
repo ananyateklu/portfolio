@@ -72,6 +72,11 @@
   bottom: 210px;
   display: block;
 }
+.linkdivtwo {
+  position: fixed;
+  bottom: 210px;
+  display: none;
+}
 
 .links {
   width: 100%;
@@ -130,6 +135,15 @@ hr {
     border: 5px solid rgba(190, 190, 190, .3);
   }
   .linkdiv {
+    position: fixed;
+    top: 60px;
+    right: 0px;
+    width: 130px;
+    background-color:  #469931;
+    height: 175px;
+    display: none;
+  }
+  .linkdivtwo {
     position: fixed;
     top: 60px;
     right: 0px;

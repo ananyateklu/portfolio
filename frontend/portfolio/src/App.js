@@ -37,7 +37,29 @@ export default class App extends Component {
           <div  className="flex-child green">
             <img src={Photo} alt="myphoto"  />
             <div className="Burger" ><GiHamburgerMenu onClick={() => this.expandNav()} size="40px"/></div>
-            <div className="linkdiv" style={{display : tab_class}} >
+            <div className="linkdiv" >
+              <Router>
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  className= "links"
+
+                >
+                  ABOUT
+                </Link>
+                <Link className="links" to="education"  spy={true} smooth={true}>
+                  EDUCATION
+                </Link>
+                <Link className="links" to="projects"  spy={true} smooth={true}>
+                  PROJECTS
+                </Link>
+                <Link className="links" to="skills"  spy={true} smooth={true}>
+                  SKILLS
+                </Link>
+              </Router>
+            </div>
+            <div className="linkdivtwo" style={{display : tab_class}} >
               <Router>
                 <Link
                   to="about"
