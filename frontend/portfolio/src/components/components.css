@@ -124,6 +124,7 @@
   margin-top: 40px;
   text-align: left;
   margin-bottom: 60px;
+  line-height: 21px;
 }
 .last {
   color: #469931;
@@ -200,7 +201,7 @@
   }
   .Education {
     position: absolute;
-    padding-top: 200px;
+    padding-top: 150px;
     top: 800px;
     left: 20px;
     text-align: left;
@@ -214,7 +215,7 @@
   }
   .Projects {
     position: absolute;
-    padding-top: 200px;
+    padding-top: 2px;
     left: 20px;
     width: 350px;
     top: 1600px;
@@ -222,7 +223,7 @@
   }
   .Skills {
     position: absolute;
-    padding-top: 200px;
+    padding-top: 10px;
     left: 20px;
     top: 2400px;
     text-align: left;
