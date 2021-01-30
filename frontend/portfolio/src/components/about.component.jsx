@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import "./components.css"
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
 
 
@@ -22,7 +22,7 @@ export default class About extends Component {
           </h5>
           <div className="Icondiv"><a href="https://github.com/ananyateklu"><GitHubIcon/></a></div>
           <div className="Icondiv"><a href="https://www.linkedin.com/in/ananya-teklu-37b5b2154/"><LinkedInIcon/></a></div>
-          <div className="Icondiv"><a href="https://www.instagram.com/ananya_teklu/"><InstagramIcon/></a></div>
+          <div className="Icondiv"><a href="https://www.facebook.com/ananyameseret/"><FacebookIcon/></a></div>
         </div>
        
       </div>
