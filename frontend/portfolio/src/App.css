@@ -49,8 +49,10 @@
   
 } 
 .flex-child.magenta {
-  width: 100%;
-  height: 2000px;
+  width: 90%;
+  position: absolute;
+  z-index: -1;
+  height: 3300px;
 
 }
 .Burger {
