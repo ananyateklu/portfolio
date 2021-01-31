@@ -60,7 +60,7 @@ export default class App extends Component {
               </Router>
             </div>
             <div className="linkdivtwo" style={{display : tab_class}} >
-              <Router>
+              <Router className="router">
                 <Link
                   to="about"
                   spy={true}
@@ -85,11 +85,11 @@ export default class App extends Component {
   
           <div className="flex-child magenta">
             <About />
-            <hr />
+         
             <Education />
-            <hr />
+        
             <Projects />
-            <hr />
+
             <Skills />
           </div>
         </div>

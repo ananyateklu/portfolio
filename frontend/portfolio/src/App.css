@@ -49,7 +49,7 @@
   
 } 
 .flex-child.magenta {
-  width: 90%;
+  width: 100%;
   position: absolute;
   z-index: -1;
   height: 3300px;
@@ -59,10 +59,10 @@
   display: none;
 }
 .flex-child.green img {
-  width: 150px;
+  width: 140px;
   border-radius: 60%;
   position: fixed;
-  left: 60px;
+  left: 63px;
   margin-top: 150px;
   border: 10px solid rgba(190, 190, 190, .3);
 
@@ -79,6 +79,10 @@
   bottom: 210px;
   display: none;
 }
+.router {
+  position: fixed;
+  color: transparent;
+}
 
 .links {
   width: 100%;
@@ -89,7 +93,7 @@
   color: #7bc569;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  right: 15px;
+  right: 12px;
   
   
 
@@ -157,7 +161,7 @@ hr {
 
   .flex-child.magenta {
     height: 2000px;
-    width: 0px; 
+    width: 100%; 
   
   }
 

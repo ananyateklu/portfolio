@@ -19,7 +19,7 @@ export default class Experience extends Component {
           <div className="grid-item">
           <h6>EXPENSE TRACKER</h6>
             <a href= "https://github.com/ananyateklu/expense-tracker"><img src={Project2} alt="p2" /></a></div>
-         
+          
         </div>
       </div>
     );
