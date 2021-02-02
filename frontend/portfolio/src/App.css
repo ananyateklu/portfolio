@@ -95,10 +95,22 @@
   font-family: 'Roboto', sans-serif;
   right: 12px;
   
+}
+
+.linksWhite {
+  width: 100%;
+  position: relative;
+  float: left;
+  font-size: larger;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  right: 12px;
+  
   
 
 }
-
 
 
 .links:active {

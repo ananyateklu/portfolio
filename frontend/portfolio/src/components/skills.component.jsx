@@ -98,7 +98,7 @@ export default class Skills extends Component {
         <h2>EXPERIENCE</h2>
         <div className="experience">
           <div className="ex1">
-          <div class="vl"></div>
+          <div className="vl"></div>
             <BiRadioCircleMarked className="circles" size="30px" />
             <h4>AUTOMATIC MAD LIBS</h4>
 
