@@ -95,7 +95,7 @@ export default class Skills extends Component {
           </li>
         </ul>
 
-        <h2>EXPRIENCE</h2>
+        <h2>EXPERIENCE</h2>
         <div className="experience">
           <div className="ex1">
           <div class="vl"></div>
