@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Link } from "react-scroll";
 import About from "./components/about.component";
@@ -18,11 +17,36 @@ export default class App extends Component {
       super()
 
       this.state = {
-        mobile: true
+        mobile: true,
+        about: true,
+        education: false,
+        projects: false,
+        skills: false
       }
 
     }
+    componentDidMount() {
+      window.addEventListener('scroll', this.scrollAbout)
+      window.addEventListener('scroll', this.scrollEducation)
+    }
 
+    scrollAbout = () => {
+      if(window.scrollY <= 600) {
+        this.setState({about:true})
+      }
+      else {
+        this.setState({about:false})
+      }
+    }
+    scrollEducation = () => {
+      if(window.scrollY > 600 && window.scrollY <= 1200) {
+        this.setState({education:true})
+      }
+      else {
+        this.setState({education:false})
+      }
+    }
+    
     expandNav() {
       this.setState({mobile: !this.state.mobile})
 
@@ -30,6 +54,8 @@ export default class App extends Component {
 
   render() {
     const tab_class = this.state.mobile ? "none" : "block";
+    const about_class = this.state.about ? "linksWhite" : "links";
+    const education_class = this.state.education ? "linksWhite" : "links";
   
     return (
       <div className="App">
@@ -43,12 +69,12 @@ export default class App extends Component {
                   to="about"
                   spy={true}
                   smooth={true}
-                  className= "links"
+                  className= {about_class}
 
                 >
                   ABOUT
                 </Link>
-                <Link className="links" to="education"  spy={true} smooth={true}>
+                <Link className= {education_class} to="education"  spy={true} smooth={true}>
                   EDUCATION
                 </Link>
                 <Link className="links" to="projects"  spy={true} smooth={true}>
