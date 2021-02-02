@@ -29,6 +29,7 @@ export default class App extends Component {
       window.addEventListener('scroll', this.scrollAbout)
       window.addEventListener('scroll', this.scrollEducation)
       window.addEventListener('scroll', this.scrollProjects)
+      window.addEventListener('scroll', this.scrollSkills)
     }
 
     scrollAbout = () => {
@@ -40,7 +41,7 @@ export default class App extends Component {
       }
     }
     scrollEducation = () => {
-      if(window.scrollY > 600 && window.scrollY <= 1200) {
+      if(window.scrollY > 600 && window.scrollY <= 1100) {
         this.setState({education:true})
       }
       else {
@@ -48,11 +49,19 @@ export default class App extends Component {
       }
     }
     scrollProjects = () => {
-      if(window.scrollY > 1200 && window.scrollY <= 1900) {
+      if(window.scrollY > 1100 && window.scrollY <= 1900) {
         this.setState({projects:true})
       }
       else {
         this.setState({projects:false})
+      }
+    }
+    scrollSkills = () => {
+      if(window.scrollY > 1900 && window.scrollY <= 3800) {
+        this.setState({skills:true})
+      }
+      else {
+        this.setState({skills:false})
       }
     }
     
@@ -66,6 +75,7 @@ export default class App extends Component {
     const about_class = this.state.about ? "linksWhite" : "links";
     const education_class = this.state.education ? "linksWhite" : "links";
     const projects_class = this.state.projects ? "linksWhite" : "links";
+    const skills_class = this.state.skills ? "linksWhite" : "links";
   
     return (
       <div className="App">
@@ -90,7 +100,7 @@ export default class App extends Component {
                 <Link className={projects_class} to="projects"  spy={true} smooth={true}>
                   PROJECTS
                 </Link>
-                <Link className="links" to="skills"  spy={true} smooth={true}>
+                <Link className={skills_class} to="skills"  spy={true} smooth={true}>
                   SKILLS
                 </Link>
               </Router>
