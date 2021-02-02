@@ -144,6 +144,14 @@ export default class Skills extends Component {
               <VscCircleFilled/> Conducted tutorial services for students to provide academic support in  Fundamentals of Programming, Data Structures, and Software Design and Development
             </h5>
           </div>
+          <div className="ex5">
+            <BiRadioCircleMarked className="circles" size="30px" />
+            <h4>PHYSICS TUTOR</h4>
+            <h5>
+              {" "}
+              <VscCircleFilled/> Conducted tutorial services for students to provide academic support for conceptual Physics and Astronomy.
+            </h5>
+          </div>
         </div>
       </div>
     );

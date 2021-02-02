@@ -157,10 +157,17 @@
   height: 150px;
   width: 75%;
 }
+.ex5 {
+  color: #549643;
+  display: block;
+  padding-left: 20px;
+  height: 150px;
+  width: 75%;
+}
 
 .vl {
   border-left: 2px solid  #549643;
-  height: 485px;
+  height: 630px;
   margin-top: 12px;
   margin-left: 14px;
   z-index: -3;
@@ -532,10 +539,16 @@ hr {
     height: 200px;
     width: 90%;
   }
-  
+  .ex5 {
+    color: #549643;
+    display: block;
+    padding-left: 7px;
+    height: 200px;
+    width: 90%;
+  }
   .vl {
     border-left: 2px solid  #549643;
-    height: 630px;
+    height: 830px;
     margin-top: 12px;
     margin-left: 14px;
     z-index: -3;
