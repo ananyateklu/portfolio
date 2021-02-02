@@ -28,6 +28,7 @@ export default class App extends Component {
     componentDidMount() {
       window.addEventListener('scroll', this.scrollAbout)
       window.addEventListener('scroll', this.scrollEducation)
+      window.addEventListener('scroll', this.scrollProjects)
     }
 
     scrollAbout = () => {
@@ -46,6 +47,14 @@ export default class App extends Component {
         this.setState({education:false})
       }
     }
+    scrollProjects = () => {
+      if(window.scrollY > 1200 && window.scrollY <= 1900) {
+        this.setState({projects:true})
+      }
+      else {
+        this.setState({projects:false})
+      }
+    }
     
     expandNav() {
       this.setState({mobile: !this.state.mobile})
@@ -56,6 +65,7 @@ export default class App extends Component {
     const tab_class = this.state.mobile ? "none" : "block";
     const about_class = this.state.about ? "linksWhite" : "links";
     const education_class = this.state.education ? "linksWhite" : "links";
+    const projects_class = this.state.projects ? "linksWhite" : "links";
   
     return (
       <div className="App">
@@ -77,7 +87,7 @@ export default class App extends Component {
                 <Link className= {education_class} to="education"  spy={true} smooth={true}>
                   EDUCATION
                 </Link>
-                <Link className="links" to="projects"  spy={true} smooth={true}>
+                <Link className={projects_class} to="projects"  spy={true} smooth={true}>
                   PROJECTS
                 </Link>
                 <Link className="links" to="skills"  spy={true} smooth={true}>
