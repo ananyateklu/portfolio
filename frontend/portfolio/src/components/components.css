@@ -301,7 +301,7 @@ hr {
     position: absolute;
     padding-top: 200px;
     top: 900px;
-    width: 92%;
+    width: 100%;
     font-family: "Oswald", sans-serif;
     border-bottom: 1px solid #b6b8b4;
     height: 500px;
@@ -318,7 +318,7 @@ hr {
     padding-left: 30px;
     height: 650px;
     border-bottom: 1px solid #b6b8b4;
-    width: 90%;
+    width: 92%;
   }
   .Projects h1 {
     font-size: 50px;
@@ -416,7 +416,7 @@ hr {
     grid-template-columns: auto auto;
     padding: 3px;
     align-items: center;
-    width: 100%;
+    width: 90%;
     padding-top: 200px;
     height: 200px;
   }
@@ -426,7 +426,7 @@ hr {
     text-align: left;
   }
   .grid-item img {
-    width: 140px;
+    width: 125px;
     margin-right: 20px;
     border-radius: 6px;
   }
@@ -558,5 +558,5 @@ hr {
     margin-left: 50px;
     margin-top: 20px;
   }
-  
+
 }
