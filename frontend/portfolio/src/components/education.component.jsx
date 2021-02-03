@@ -12,7 +12,8 @@ export default class Education extends Component {
             <h4> August 2017  -  December 2020</h4>
             </div>
             <h3 className="bach">BACHELOR OF ARTS</h3>
-            <h5>Computer Science</h5>
+            <h5>Major: Computer Science</h5>
+            <h5>Minor: Mathematics</h5>
             <h5> Cumulative GPA: 3.4</h5>
             <h5> Major GPA: 3.7</h5>
 
