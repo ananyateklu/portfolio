@@ -32,11 +32,6 @@ export default class About extends Component {
                 <LinkedInIcon />
               </a>
             </div>
-            <div className="Icondiv">
-              <a href="https://www.facebook.com/ananyameseret/">
-                <FacebookIcon />
-              </a>
-            </div>
           </div>
         </div>
       </div>
