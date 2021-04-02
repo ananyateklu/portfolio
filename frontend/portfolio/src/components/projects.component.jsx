@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./components.css";
 import Project1 from "../project1.png";
 import Project2 from "../project2.png";
+import Project3 from "../project3.png";
 
 export default class Experience extends Component {
   render() {
@@ -11,15 +12,22 @@ export default class Experience extends Component {
         <div className="grid-container">
           <div className="grid-item">
             <h6>RIDE SHARING APP</h6>
-            <a href= "https://github.com/ananyateklu/panic">
+            <a href="https://github.com/ananyateklu/panic">
               <img src={Project1} alt="p1" />
-              </a>
-
-              </div>
+            </a>
+          </div>
           <div className="grid-item">
-          <h6>EXPENSE TRACKER</h6>
-            <a href= "https://github.com/ananyateklu/expense-tracker"><img src={Project2} alt="p2" /></a></div>
-          
+            <h6>EXPENSE TRACKER</h6>
+            <a href="https://github.com/ananyateklu/expense-tracker">
+              <img src={Project2} alt="p2" />
+            </a>
+          </div>
+          <div className="grid-item">
+            <h6>DIVINECARELLC</h6>
+            <a href="https://divinecaremn.herokuapp.com/#home">
+              <img className="thirdP" src={Project3} alt="p2" />
+            </a>
+          </div>
         </div>
       </div>
     );
