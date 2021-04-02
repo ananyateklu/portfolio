@@ -250,9 +250,12 @@
   font-size: 30px;
   text-align: center;
 }
-.grid-item img {
-  width: 250px;
+.griditemimg {
+  width: 150px;
   border-radius: 7px;
+}
+.thirdP {
+  width: 320px;
 }
 
 .skillz {

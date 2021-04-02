@@ -13,13 +13,13 @@ export default class Experience extends Component {
           <div className="grid-item">
             <h6>RIDE SHARING APP</h6>
             <a href="https://github.com/ananyateklu/panic">
-              <img src={Project1} alt="p1" />
+              <img className="griditemimg" src={Project1} alt="p1" />
             </a>
           </div>
           <div className="grid-item">
             <h6>EXPENSE TRACKER</h6>
             <a href="https://github.com/ananyateklu/expense-tracker">
-              <img src={Project2} alt="p2" />
+              <img className="griditemimg" src={Project2} alt="p2" />
             </a>
           </div>
           <div className="grid-item">
