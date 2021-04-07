@@ -24,7 +24,7 @@ export default class Experience extends Component {
           </div>
           <div className="grid-item">
             <h6>DIVINECARELLC</h6>
-            <a href="https://divinecaremn.herokuapp.com/#home">
+            <a href="https://divinecaremn.org">
               <img className="thirdP" src={Project3} alt="p2" />
             </a>
           </div>
