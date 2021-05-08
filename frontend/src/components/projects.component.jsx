@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./components.css";
-import Project1 from "../project1.png";
-import Project2 from "../project2.png";
-import Project3 from "../project3.png";
+import Project1 from "./assets/project1.png";
+import Project2 from "./assets/project2.png";
+import Project3 from "./assets/project3.png";
 
 export default class Experience extends Component {
   render() {
