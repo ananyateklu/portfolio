@@ -5,7 +5,7 @@ import Education from "./components/education.component";
 import Projects from "./components/projects.component";
 import Skills from "./components/skills.component"
 import { GiHamburgerMenu } from "react-icons/gi"
-import Photo from "./photo.jpg"
+import Photo from "./components/assets/photo.jpg"
 import "./App.css"
 import { Component } from "react"
 
