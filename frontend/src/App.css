@@ -157,7 +157,7 @@ hr {
     top: 60px;
     right: 0px;
     width: 130px;
-    background-color:  #469931;
+    background-color:  #5b9286;
     height: 175px;
     display: none;
   }
@@ -166,7 +166,7 @@ hr {
     top: 60px;
     right: 0px;
     width: 130px;
-    background-color:  #469931;
+    background-color:  #004a3a;
     height: 175px;
     display: none;
   }
@@ -181,7 +181,7 @@ hr {
     display: block;
     float: right;
     padding: 10px;
-    color: rgb(159, 218, 114);
+    color: #5b9286;
   }
 
   hr {
@@ -203,7 +203,7 @@ hr {
     float: left;
     font-size: larger;
     margin-top: 15px;
-    color: #7bc569;
+    color: #5b9286;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     right: 15px;
