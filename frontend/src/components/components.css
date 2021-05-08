@@ -57,7 +57,7 @@
 }
 .school h4 {
   display: inline-block;
-  color: #5a994a;
+  color:#276e5f;
   font-family: "Raleway", sans-serif;
   margin-left: 33% ;
 
@@ -114,7 +114,7 @@
 }
 .ex1 {
  
-  color: #549643;
+  color: #276e5f;
   display: block;
   padding-left: 20px;
   height: 150px;
@@ -132,7 +132,7 @@
 }
 .ex2 {
 
-  color: #549643;
+  color: #276e5f;
   display: block;
   padding-left: 20px;
   height: 150px;
@@ -140,21 +140,21 @@
 }
 .ex3 {
 
-  color: #549643;
+  color: #276e5f;
   display: block;
   padding-left: 20px;
   height: 180px;
   width: 75%;
 }
 .ex4 {
-  color: #549643;
+  color: #276e5f;
   display: block;
   padding-left: 20px;
   height: 150px;
   width: 75%;
 }
 .ex5 {
-  color: #549643;
+  color: #276e5f;
   display: block;
   padding-left: 20px;
   height: 150px;
@@ -162,7 +162,7 @@
 }
 
 .vl {
-  border-left: 2px solid  #549643;
+  border-left: 2px solid  #276e5f;
   height: 630px;
   margin-top: 12px;
   margin-left: 14px;
@@ -199,7 +199,7 @@
   font-family: "Oswald", sans-serif;
   font-size: 18px;
   font-weight: 100;
-  color: #469931;
+  color: #276e5f;
   display: inline;
   padding: 0;
   margin: 0;
@@ -217,7 +217,7 @@
   line-height: 21px;
 }
 .last {
-  color: #469931;
+  color: #276e5f;
 }
 .Icondiv {
   display: inline;
@@ -498,7 +498,7 @@ hr {
   }
   .ex1 {
  
-    color: #549643;
+    color: #276e5f;
     display: block;
     padding-left: 7px;
     height: 200px;
@@ -516,7 +516,7 @@ hr {
   }
   .ex2 {
   
-    color: #549643;
+    color: #276e5f;
     display: block;
     padding-left: 7px;
     height: 200px;
@@ -524,28 +524,28 @@ hr {
   }
   .ex3 {
   
-    color: #549643;
+    color: #276e5f;
     display: block;
     padding-left: 7px;
     height: 230px;
     width: 90%;
   }
   .ex4 {
-    color: #549643;
+    color: #276e5f;
     display: block;
     padding-left: 7px;
     height: 200px;
     width: 90%;
   }
   .ex5 {
-    color: #549643;
+    color: #276e5f;
     display: block;
     padding-left: 7px;
     height: 200px;
     width: 90%;
   }
   .vl {
-    border-left: 2px solid  #549643;
+    border-left: 2px solid  #276e5f;
     height: 830px;
     margin-top: 12px;
     margin-left: 14px;
