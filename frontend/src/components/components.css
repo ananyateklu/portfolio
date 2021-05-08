@@ -14,6 +14,10 @@
   color: #41443f;
 }
 
+a {
+  text-decoration: none;
+}
+
 .Education {
   position: absolute;
   padding-top: 200px;
@@ -23,15 +27,12 @@
   font-family: "Oswald", sans-serif;
   border-bottom: 1px solid #b6b8b4;
   height: 600px;
-  
-  
 }
 
 .Education h1 {
   font-size: 50px;
   color: #41443f;
   margin-left: 350px;
-
 }
 .Education h5 {
   font-family: "Raleway", sans-serif;
@@ -46,7 +47,6 @@
   font-size: 25px;
   color: #41443f;
   margin-left: 350px;
- 
 }
 .bach {
   padding: 0;
@@ -57,10 +57,9 @@
 }
 .school h4 {
   display: inline-block;
-  color:#276e5f;
+  color: #276e5f;
   font-family: "Raleway", sans-serif;
-  margin-left: 33% ;
-
+  margin-left: 33%;
 }
 
 .Projects {
@@ -113,7 +112,6 @@
   margin-top: 20px;
 }
 .ex1 {
- 
   color: #276e5f;
   display: block;
   padding-left: 20px;
@@ -131,7 +129,6 @@
   position: absolute;
 }
 .ex2 {
-
   color: #276e5f;
   display: block;
   padding-left: 20px;
@@ -139,7 +136,6 @@
   width: 75%;
 }
 .ex3 {
-
   color: #276e5f;
   display: block;
   padding-left: 20px;
@@ -162,7 +158,7 @@
 }
 
 .vl {
-  border-left: 2px solid  #276e5f;
+  border-left: 2px solid #276e5f;
   height: 630px;
   margin-top: 12px;
   margin-left: 14px;
@@ -231,31 +227,86 @@
   border-radius: 50%;
 }
 .Icondiv a {
-    color: white;
+  color: white;
 }
 .Icondiv a:visited {
-    color: white;
+  color: white;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding-top: 200px;
-  width: auto;
+  width: 700px;
   padding-left: 350px;
-  height: 700px;
+  height: 400px;
 }
 .grid-item {
   width: 300px;
-  font-size: 30px;
-  text-align: center;
-}
-.griditemimg {
-  width: 150px;
+  border: rgb(190, 188, 188) 0.5mm solid;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  height: auto;
+  padding-bottom: 30px;
   border-radius: 7px;
+  text-align: left;
 }
+
+.grid-item h5 {
+  font-size: 17px;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.753);
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 10px;
+}
+.grid-item h6 {
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 100;
+  color: rgba(44, 44, 44, 0.411);
+  font-family: "Oswald", sans-serif;
+  margin-top: 5px;
+}
+.Gitc {
+  display: inline;
+  background-color: #276e5f;
+  color: white;
+  padding-top: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  margin-right: 40px;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+.Gitc a {
+  color: white;
+}
+.Gitc a:visited {
+  color: white;
+}
+
+.griditemimg {
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.firstp {
+  width: 92px;
+  margin-left: 30px;
+}
+
+.firstp2 {
+  width: 142px;
+}
+
 .thirdP {
-  width: 320px;
+  width: 300px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .skillz {
@@ -287,7 +338,6 @@ hr {
   background-color: rgb(202, 199, 199);
   border: 0;
   display: block;
-  
 }
 
 @media only screen and (max-width: 768px) {
@@ -308,18 +358,16 @@ hr {
     font-family: "Oswald", sans-serif;
     border-bottom: 1px solid #b6b8b4;
     height: 500px;
-   
-    
   }
   .school h4 {
-      display: block;
+    display: block;
   }
   .Projects {
     position: absolute;
     padding-top: 200px;
     top: 1600px;
     padding-left: 30px;
-    height: 650px;
+    height: 1050px;
     border-bottom: 1px solid #b6b8b4;
     width: 92%;
   }
@@ -335,7 +383,7 @@ hr {
     width: auto;
     padding-top: 140px;
     padding-left: 0px;
-    top: 2400px;
+    top: 2800px;
     text-align: left;
     height: 600px;
   }
@@ -351,7 +399,6 @@ hr {
     font-size: larger;
     color: #737a6f;
     margin-left: 30px;
-    
   }
   .Skills h2 {
     font-family: "Oswald", sans-serif;
@@ -384,9 +431,8 @@ hr {
     padding-left: 10px;
     width: 20px;
     color: #747a70;
-    
   }
-  
+
   .mainSkill {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -399,7 +445,7 @@ hr {
     color: #747a70;
     margin-left: 30px;
   }
-  
+
   .Skills ul li h5 {
     margin: 0;
     padding: 0;
@@ -419,21 +465,50 @@ hr {
     grid-template-columns: auto auto;
     padding: 3px;
     align-items: center;
-    width: 100%;
+    width: 90%;
     padding-top: 200px;
-    height: 200px;
+    height: 400px;
   }
   .grid-item {
-    padding-left: 10px;
-    width: auto;
+    width: 130px;
     font-size: 30px;
     text-align: left;
+    border-radius: 0;
   }
-  .grid-item img {
+  .grid-item h6 {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .grid-item h5 {
+    font-size: 17px;
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.753);
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 10px;
+  }
+  .Gitc {
+    display: inline;
+    background-color: #276e5f;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    margin-right: 40px;
+    margin-left: 30px;
+    border-radius: 50%;
+  }
+  .Gitc a {
+    color: white;
+  }
+  .Gitc a:visited {
+    color: white;
+  }
+  /* .grid-item img {
     width: 120px;
     margin-right: 20px;
     border-radius: 6px;
-  }
+  } */
   .work h3 {
     display: inline;
     margin: 0px;
@@ -441,8 +516,8 @@ hr {
     color: #41443f;
   }
   .work {
-      width: 0px;
-      margin: 0px;
+    width: 0px;
+    margin: 0px;
   }
   .About h1 {
     font-family: "Oswald", sans-serif;
@@ -460,28 +535,26 @@ hr {
     text-align: left;
     display: inline;
   }
-  
-.Education h1 {
-  font-size: 50px;
-  color: #41443f;
-  margin-left: 30px;
 
-}
-.Education h5 {
-  font-family: "Raleway", sans-serif;
-  margin: 0px;
-  margin-top: 5px;
-  color: #747a70;
-  font-size: medium;
-  margin-left: 30px;
-}
-.school h3 {
-  display: inline;
-  font-size: 20px;
-  color: #41443f;
-  margin-left: 30px;
- 
-}
+  .Education h1 {
+    font-size: 50px;
+    color: #41443f;
+    margin-left: 30px;
+  }
+  .Education h5 {
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    margin-top: 5px;
+    color: #747a70;
+    font-size: medium;
+    margin-left: 30px;
+  }
+  .school h3 {
+    display: inline;
+    font-size: 20px;
+    color: #41443f;
+    margin-left: 30px;
+  }
   .school h4 {
     display: block;
     color: #5a994a;
@@ -497,7 +570,6 @@ hr {
     margin-left: 30px;
   }
   .ex1 {
- 
     color: #276e5f;
     display: block;
     padding-left: 7px;
@@ -515,7 +587,6 @@ hr {
     position: absolute;
   }
   .ex2 {
-  
     color: #276e5f;
     display: block;
     padding-left: 7px;
@@ -523,7 +594,6 @@ hr {
     width: 90%;
   }
   .ex3 {
-  
     color: #276e5f;
     display: block;
     padding-left: 7px;
@@ -545,7 +615,7 @@ hr {
     width: 90%;
   }
   .vl {
-    border-left: 2px solid  #276e5f;
+    border-left: 2px solid #276e5f;
     height: 830px;
     margin-top: 12px;
     margin-left: 14px;
@@ -562,5 +632,22 @@ hr {
     margin-left: 50px;
     margin-top: 20px;
   }
+  .firstp {
+    width: 40px;
+    margin-left: 7px;
+  }
 
+  .firstp2 {
+    width: 60px;
+  }
+  .griditemimg {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+
+  .thirdP {
+    width: 130px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
 }
