@@ -40,7 +40,7 @@ export default class Experience extends Component {
               </h6>
             </a>
             <div className="Gitc">
-              <a href="https://github.com/ananyateklu/expense-tracker">
+              <a href="https://github.com/ananyateklu/expense-tracker-2.0">
                 <GitHubIcon />
               </a>
             </div>
