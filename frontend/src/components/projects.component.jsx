@@ -30,13 +30,13 @@ export default class Experience extends Component {
             </div>
           </div>
           <div className="grid-item">
-            <a href="https://github.com/ananyateklu/expense-tracker">
+            <a href="https://github.com/ananyateklu/expense-tracker-2.0">
               <img className="griditemimg" src={Project2} alt="p2" />
               <h5>EXPENSE TRACKER</h5>
               <h6>
                 Personal expense tracker built for personal use. Features
                 include showing expenses in a list view and with a chart, Adding
-                expenses, and filtering expenses with date.
+                expenses, and filtering expenses with date. (Work in progress)
               </h6>
             </a>
             <div className="Gitc">
