@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./components.css";
 import Project1 from "../project1.png";
 import Project2 from "../project2.png";
-import Project3 from "../project3.png";
 
 export default class Experience extends Component {
   render() {
@@ -25,7 +24,7 @@ export default class Experience extends Component {
           <div className="grid-item">
             <h6>DIVINECARELLC</h6>
             <a href="https://divinecaremn.org">
-              <img className="thirdP" src={Project3} alt="p2" />
+              <img className="thirdP" src={Project2} alt="p2" />
             </a>
           </div>
         </div>
